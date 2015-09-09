@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="35px" height="33px" viewBox="0 0 35 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>LOGO + O</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Mobile-Portrait" sketch:type="MSArtboardGroup" transform="translate(-14.000000, -15.000000)">
+            <g id="LOGO-+-O" sketch:type="MSLayerGroup" transform="translate(14.300000, 14.500000)">
+                <g id="LOGO" transform="translate(0.000000, 0.314330)" sketch:type="MSShapeGroup">
+                    <path d="M0.00593536898,33.0851799 L0.522346788,32.5583485 L11.3058089,21.5573022 L11.8885995,20.9627522 L13.0541809,22.1518521 L12.4713902,22.7464021 L2.71829531,32.6962909 L0.00593536898,33.0851799 Z M33.9247289,0.225984787 L33.4083175,0.752816143 L22.6248554,11.7538625 L22.0420647,12.3484124 L20.8764834,11.1593125 L21.459274,10.5647626 L31.212369,0.61487375 L33.9247289,0.225984787 L33.9247289,0.225984787 Z" id="Line-Copy" fill="#F9EDE1"></path>
+                    <ellipse id="Oval-8" stroke="#F9EDE1" cx="21.2318928" cy="12.2688526" rx="3.47727273" ry="2.75911659"></ellipse>
+                </g>
+                <text id="O" sketch:type="MSTextLayer" font-family="STFangsong" font-size="29.6129032" font-weight="normal" fill="#F9EDE1">
+                    <tspan x="8.22580645" y="27.3050847">O</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
