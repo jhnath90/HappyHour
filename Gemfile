@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# tzinfo-data for window users
+gem 'tzinfo-data'
 #Added Autoprefixer for easier prefixing of css properties
 gem 'autoprefixer-rails', '~> 6.0.2'
 # Adding Bootstrap
