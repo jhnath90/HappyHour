@@ -16,3 +16,14 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+form {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+button {
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 0px;
+}
