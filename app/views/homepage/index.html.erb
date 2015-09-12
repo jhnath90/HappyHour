@@ -9,10 +9,21 @@
     <div id="flex-box">
         <div id="sidebar">
         <div class="logo"></div>
+        <div class="hamburger"></div>
+        <div id="locator">
+          <button type="button"><div class="loc-icon"></div>My Location</button>
+          <h4 class="or">or</h4>
+          <form method="get">
+            <input type="text" placeholder="Zip Code" class="zipcode" >
+            <input type="submit" value="Submit">
+          </form>
+        </div>
       </div>
       <div id="map"></div>
   </div>
-  <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
-  async defer></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?callback=initMap&libraries=places&key=AIzaSyADdVC2cwQIV6U2jyIdMKLmlzYRcVZXu6k"
+  type="text/javascript"></script>
+
 </body>
 </html>
