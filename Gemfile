@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'jquery-turbolinks'
 # tzinfo-data for window users
 gem 'tzinfo-data'
 #Added Autoprefixer for easier prefixing of css properties
