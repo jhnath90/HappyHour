@@ -14,15 +14,6 @@ html, body {
   flex-direction: row;
 }
 
-#map {
-  height: 100vh;
-  width: 100%;
-}
-
-#sidebar {
-  background: rgba(65, 73, 71, 1);
-}
-
 .logo {
   margin: 20px 13px 0 13px;
   background-image: url("Logo.svg");
@@ -32,15 +23,129 @@ html, body {
   border-bottom: 1px solid #979797;
 }
 
+#map {
+  height: 100vh;
+  width: 100%;
+}
+
+#sidebar {
+  background: rgba(65, 73, 71, 1);
+}
+
+.loc-icon {
+  background-image: url("location-icon.svg");
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+button {
+  background: #9CAEAC;
+  border-radius: 5px;
+  width: 154px;
+  height: 40px;
+  line-height: 16px;
+  font-size: 12px;
+  font-weight: none;
+}
+
+.or {
+  color: #F9EDE0;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 4% auto;
+  padding-top: 5px;
+  text-align: center;
+}
+
+form {
+  // padding-top: 10px;
+  width: 154px;
+  text-align: center;
+}
+
+#locator {
+  position: inherit;
+  margin: 50% auto;
+  width: 154px;
+  vertical-align: center;
+  display: block;
+}
+
+form > input.zipcode {
+  background: rgba(white, 0);
+  width: 154px;
+  height: 25px;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 1px #979797 solid;
+  font-size: 16px;
+  color: #F9EDE0;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 @media screen and (max-width: 900px) {
   #flex-box {
     flex-direction: column;
   }
+
   .logo {
     margin: 15px 0 15px 14px;
     background-image: url("mobileLogo.svg");
     width: 34px;
     height: 34px;
     border-bottom: none;
+    float: left;
+  }
+
+  .hamburger {
+    margin: 18px 14px 18px 0;
+    background-image: url("hamburger.svg");
+    width: 28px;
+    height: 25px;
+    float: right;
+  }
+
+  .hamburger:hover {
+    margin: 18px 14px 18px 0;
+    background-image: url("hamburger-hover.svg");
+    width: 28px;
+    height: 25px;
+    float: right;
+    cursor: pointer;
+  }
+
+  #locator {
+    display: inline-flex;
+    width: 100%;
+    margin: auto 0;
+    justify-content: space-around;
+    background: rgba(65, 73, 71, 0);
+  }
+
+  button {
+    background: #9CAEAC;
+    border-radius: 5px;
+    width: 154px;
+    height: 40px;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: none;
+  }
+
+  .or {
+    height: 40px;
+    margin: 0;
+  }
+
+  form {
+    padding-top: 0;
+    padding-bottom: 4%;
+    width: 154px;
   }
 }
