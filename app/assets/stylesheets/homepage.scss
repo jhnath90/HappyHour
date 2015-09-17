@@ -50,6 +50,11 @@ button {
   font-weight: none;
 }
 
+#locator > button:hover {
+  background-image: none;
+  border: none;
+}
+
 .or {
   color: #F9EDE0;
   font-size: 18px;
@@ -87,13 +92,13 @@ form > input.zipcode {
   margin-bottom: 20px;
   padding-left: 0;
   padding-right: 0;
+  animation: hide 5s;
 }
 
 @media screen and (max-width: 900px) {
   #flex-box {
     flex-direction: column;
   }
-
   .logo {
     margin: 15px 0 15px 14px;
     background-image: url("mobileLogo.svg");
@@ -102,7 +107,6 @@ form > input.zipcode {
     border-bottom: none;
     float: left;
   }
-
   .hamburger {
     margin: 18px 14px 18px 0;
     background-image: url("hamburger.svg");
@@ -110,7 +114,6 @@ form > input.zipcode {
     height: 25px;
     float: right;
   }
-
   .hamburger:hover {
     margin: 18px 14px 18px 0;
     background-image: url("hamburger-hover.svg");
@@ -119,7 +122,6 @@ form > input.zipcode {
     float: right;
     cursor: pointer;
   }
-
   #locator {
     display: inline-flex;
     width: 100%;
@@ -127,7 +129,6 @@ form > input.zipcode {
     justify-content: space-around;
     background: rgba(65, 73, 71, 0);
   }
-
   button {
     background: #9CAEAC;
     border-radius: 5px;
@@ -137,12 +138,10 @@ form > input.zipcode {
     font-size: 12px;
     font-weight: none;
   }
-
   .or {
     height: 40px;
     margin: 0;
   }
-
   form {
     padding-top: 0;
     padding-bottom: 4%;
