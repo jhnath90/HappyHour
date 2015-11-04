@@ -1,27 +1,14 @@
-== README
+To run this application pleases follow the steps below:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Clone or download This project by either using the download button or git clone command in terminal
 
-Things you may want to cover:
+* Navigate inside the folder to the home directory of the project
 
-* Ruby version
+* Run the terminal command "bundle" and then "rake db:migrate" for a database creation
 
-* System dependencies
+* once you run the commands posted above to start the server type in the command "rails s"
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Checkmate!
 
 
 Please feel free to use a different markup language if you do not plan to run
