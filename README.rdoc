@@ -9,7 +9,3 @@ To run this application pleases follow the steps below:
 * once you run the commands posted above to start the server type in the command "rails s"
 
 * Checkmate!
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
